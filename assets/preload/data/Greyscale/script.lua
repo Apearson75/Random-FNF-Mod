@@ -4,3 +4,7 @@ function onCreatePost()
         setPropertyFromGroup('opponentStrums',i,'visible',false)
     end    
 end
+
+function onEndSong()
+    startVideo('WIP')
+end
